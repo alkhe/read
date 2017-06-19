@@ -1,0 +1,30 @@
+@font-face {
+	font-family: 'Camphor';
+	src: url('./CamphorPro-Regular.ttf');
+}
+
+html, body {
+	margin: 0;
+}
+
+body {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-family: 'Camphor';
+	line-height: 1.5;
+}
+
+#size {
+	height: 1em;
+}
+
+#content {
+	display: inline-block;
+	text-align: justify;
+	width: 800px;
+	border: none;
+	outline: none;
+	resize: none;
+	color: rgba(0, 0, 0, .8);
+}
