@@ -3,10 +3,18 @@
 		<link href='./style.css' rel='stylesheet' />
 	</head>
 	<body>
-		Font Size <input id='size' type='range' min='10' max='30' value='18' />
-		<br />
-		<br />
-		<div id='content'>Cmd+V</div>
+		<div id='controls'>
+			Font Family
+			<select id='font'>
+				<option value='Charter ITC Pro'>Charter ITC Pro</option>
+				<option value='Camphor'>Camphor</option>
+				<option value='Circular'>Circular</option>
+			</select>
+			&nbsp;&nbsp;&nbsp;
+			Font Size
+			<input id='size' type='range' min='16' max='36' value='24' />
+		</div>
+		<textarea id='content' placeholder='Cmd+V' readonly></textarea>
 		<script src='./index.js'></script>
 	</body>
 </html>
