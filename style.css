@@ -1,52 +1,55 @@
 @font-face {
-	font-family: 'FF';
-	src: url('./fonts/FF-DIN-Regular.otf');
+  font-family: 'Whitney';
+  src: url('./fonts/WhitneySSm-Book.woff');
 }
 
 @font-face {
-	font-family: 'Camphor';
-	src: url('./fonts/CamphorPro-Regular.ttf');
+  font-family: 'Camphor';
+  src: url('./fonts/CamphorPro-Regular.ttf');
 }
 
 @font-face {
-	font-family: 'Circular';
-	src: url('./fonts/CircularStd-Book.otf');
+  font-family: 'Circular';
+  src: url('./fonts/CircularStd-Book.otf');
 }
 
 @font-face {
-	font-family: 'Charter ITC Pro';
-	src: url('./fonts/CharterITCPro-Regular.woff2');
+  font-family: 'Charter ITC Pro';
+  src: url('./fonts/CharterITCPro-Regular.woff2');
 }
 
 html, body {
-	margin: 0;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: auto;
 }
 
 body {
-	padding-top: 20px;
-	padding-bottom: 20px;
-	text-align: center;
-	font: 24px/1.5 'Charter ITC Pro';
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font: 24.2667px/1.7 'Charter ITC Pro';
 }
 
 #controls {
-	font: 16px 'FF';
-	margin: 30px 0 40px 0;
+  font: 16px 'Whitney';
+  margin: 30px 0 40px 0;
 }
 
 #font, #size {
-	height: 1em;
-	outline: none;
-	border: none;
+  height: 1em;
+  outline: none;
+  border: none;
 }
 
 #content {
-	font: inherit;
-	display: inline-block;
-	text-align: justify;
-	width: 600pt;
-	border: none;
-	outline: none;
-	resize: none;
-	color: rgba(0, 0, 0, .8);
+  font: inherit;
+  display: inline-block;
+  text-align: justify;
+  width: 600pt;
+  border: none;
+  outline: none;
+  resize: none;
+  color: rgba(0, 0, 0, .8);
 }
